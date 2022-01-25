@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(65deg,lightpink,rgb(255, 255, 255),lightpink);
+   min-width: 450px;
+   padding: 10px;
+     text-align: left;
+}
+header{
+    text-align: center;
+
+}
+input{
+    width: 100%;
+    box-sizing: content-box;
+    border: black solid 1px;
+    padding: 8px;
+}
+#input-el{
+    border: 3px solid lightpink;
+    
+}
+#submit{
+    border: 3px solid lightpink;
+    
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: blanchedalmond;
+    color: rgb(177, 127, 136);
+}
+#save{
+    border: 3px solid lightpink;
+    
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-weight: bold;
+}
+#clear{
+    border: 3px solid rgb(148, 143, 144);
+   
+    background-color: rgb(16, 11, 11);
+    color: white;
+    font-weight: bold;
+}
+#clear:hover{
+    background-color: blanchedalmond;
+    color: rgb(177, 127, 136);
+}
+#naslov{
+    
+    font-weight: bolder;
+    text-shadow: black 3px;
+}
+#naslov:hover{
+    color: grey;
+}
+#list{
+    
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    align-content: center;
+}
+#items{
+    align-content: center;
+}
+#x{
+    
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-weight: bold;
+}
