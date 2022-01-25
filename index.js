@@ -20,7 +20,7 @@ function render(list){
         let listItem = " "
     for(let i = 0; i<list.length;i++){
         listItem+= `<li id='items'>
-         ${list[i]}  &nbsp &nbsp <button id='x'>x</button>
+         ${list[i]}
         </li>`
     }
     
